@@ -54,6 +54,12 @@ class _MyAppState extends State<MyApp> {
               fontWeight: FontWeight.bold,
               fontSize: 24,
             ),
+            labelMedium: TextStyle(
+              color: Colors.black,
+              fontFamily: "Modam",
+              fontWeight: FontWeight.bold,
+              fontSize: 20,
+            ),
             bodyMedium: TextStyle(
               color: Colors.black,
               fontFamily: "Modam",
@@ -63,7 +69,7 @@ class _MyAppState extends State<MyApp> {
             displaySmall: TextStyle(
               color: Colors.grey,
               fontFamily: "Modam",
-              fontSize: 14,
+              fontSize: 20,
               fontWeight: FontWeight.normal,
             ),
           ),
