@@ -41,6 +41,7 @@ dependencies:
   easy_image_viewer: ^1.5.1
   responsive_framework: ^1.5.1
   blur: ^4.0.2
+  url_launcher: ^6.3.2
 
 dev_dependencies:
   flutter_test:
