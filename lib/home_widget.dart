@@ -140,36 +140,36 @@ class _HomeWidgetState extends State<HomeWidget> {
                           tr("p1"),
                           style: Theme.of(context).textTheme.bodyMedium,
                         ),
-                        Gap(40),
-                        OutlinedButton(
-                          style: OutlinedButton.styleFrom(
-                            padding: EdgeInsets.symmetric(
-                              horizontal: 20,
-                              vertical: 16,
-                            ),
-                            tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                            backgroundColor: Colors.red[400],
-                            foregroundColor: Colors.white,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(2.0),
-                            ),
-                            side: BorderSide.none,
-                          ),
+                        // Gap(40),
+                        // OutlinedButton(
+                        //   style: OutlinedButton.styleFrom(
+                        //     padding: EdgeInsets.symmetric(
+                        //       horizontal: 20,
+                        //       vertical: 16,
+                        //     ),
+                        //     tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                        //     backgroundColor: Colors.red[400],
+                        //     foregroundColor: Colors.white,
+                        //     shape: RoundedRectangleBorder(
+                        //       borderRadius: BorderRadius.circular(2.0),
+                        //     ),
+                        //     side: BorderSide.none,
+                        //   ),
 
-                          onPressed: () => _launchUrl(
-                            Uri.parse(
-                              "https://mzn928.ir/assets/assets/images/resume.pdf",
-                            ),
-                          ),
-                          child: Text(
-                            tr("resume_download"),
-                            style: TextStyle(
-                              fontFamily: "Modam",
-                              fontSize: 19,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ),
+                        //   onPressed: () => _launchUrl(
+                        //     Uri.parse(
+                        //       "https://mzn928.ir/assets/assets/images/resume.pdf",
+                        //     ),
+                        //   ),
+                        //   child: Text(
+                        //     tr("resume_download"),
+                        //     style: TextStyle(
+                        //       fontFamily: "Modam",
+                        //       fontSize: 19,
+                        //       color: Colors.white,
+                        //     ),
+                        //   ),
+                        // ),
                       ],
                     ),
                   ),
